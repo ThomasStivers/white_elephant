@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    background-color: darkorange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    width: 100%;
+}
+
+h1::after,
+h1::before {
+    content: " 🎃 ";
+}
+
+p {
+    font-size: small;
+    text-align: right;
+}
+
+ol {
+    font-size: 200%;
+    /* padding-bottom: 5em; */
+    /* padding-top: 1em; */
+}
+
+li:nth-child(odd) {
+    color: black;
+}
+
+li:nth-child(even) {
+    color: darkorange;
+}
+
+li::before {
+    content: "👻 ";
+}
